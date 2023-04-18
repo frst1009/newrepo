@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*nav{
+ position: fixed;
+width: 100%;
+
+ .drop-down{
+    position: relative;
+height: 40px;
+background-color: blueviolet;
+display: flex;
+justify-content: end;   
+    a{
+        padding: 10px;
+    }
+     ul{
+        position: absolute;
+     }
+}
+h1{
+    font-family: $f;
+    font-size: $fsize;
+    text-align: center;
+}
+
+}*/
+nav {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-image: url("../1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .container h1 {
+  font-size: 70px;
+  font-family: "Lato", sans-serif;
+}
+header .container h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Gloria Hallelujah", cursive;
+}
+header .container button {
+  display: flex;
+  justify-content: center;
+  margin: 7% auto 4% auto;
+  height: 13%;
+  width: 35%;
+  padding: 3.5% 2%;
+  font-size: 20px;
+  background-color: blue;
+  border-radius: 3px;
+}
+
+.first {
+  width: 100%;
+}
+.first .container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.first .container1 h2 {
+  font-size: 40px;
+  margin-top: 9%;
+}
+.first .container1 p {
+  font-size: larger;
+  margin: 0.8%;
+}
+
+.second {
+  background-color: blueviolet;
+}
+
+.third {
+  background-color: lightblue;
+}
+
+.forth {
+  background-color: chocolate;
+}
+
+.copyright {
+  background-color: cadetblue;
+}/*# sourceMappingURL=styles.css.map */
